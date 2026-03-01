@@ -8,10 +8,20 @@ use Tests\TestCase;
 
 class InspectionTest extends TestCase
 {
-    public function test_inspection()
-    {
-        $response = $this->get('/inspections');
+    use RefreshDatabase;
 
-        $response->assertStatus(200);
+    public function test_inspection_creation() {
+        $response = $this->post('/inspections', [
+            'vehicle_name'=> 'toyota650',
+            'emission_level'=> 28
+        ]);
+
+        $response->assertRedirect('/inspections');
+
+        $this->assertDatabaseHas('inspections', [
+            'vehicle_name'=> 'toyota650',
+            'emission_level'=> 28,
+            'passed'=> true
+        ]);
     }
 }
