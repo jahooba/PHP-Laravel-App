@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(188, 221, 250);
+    color: black;
+    padding: 1rem;
+}
+
+nav a {
+    color: blue;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.container {
+    padding: 2rem;
+}
+
+.card {
+    background-color: aquamarine;
+    color: rgb(24, 48, 40);
+    padding: 1rem;
+}
+
+.passed {
+    color: green;
+}
+
+.failed {
+    color: red;
+}

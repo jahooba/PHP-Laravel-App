@@ -1,11 +1,19 @@
-<h1>Inspection List</h1>
+@extends('layouts.inspection_app')
 
-<a href="/inspections/create"> Add inspection</a>
+@section('content')
+    <h1>Inspection List</h1>
 
-@foreach ($inspections as $inspection)
-    <p>
-        { {$inspection->vehicle_name} } |
-        Emission: { {$inspection->emission_level} } |
-        Status: { {$inspection->passed ? 'Passed' : 'Failed'} }
-    </p>
-@endforeach
+    @foreach ($inspections as $inspection)
+        <div class="card">
+            Vehicle: <strong>{{ $inspection->vehicle_name }}</strong> <br>
+            Emission: {{ $inspection->emission_level }} <br>
+            Status:
+            @if ($inspection->passed)
+                <span class="passed">Passed</span>
+            @else
+                <span class="failed">Failed</span>
+
+            @endif
+        </div>
+    @endforeach
+@endsection
