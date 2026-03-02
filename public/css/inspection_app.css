@@ -20,11 +20,17 @@ nav a {
     padding: 2rem;
 }
 
+.card-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
 .card-pass {
     background-color: aquamarine;
     color: rgb(24, 48, 40);
     padding: 1rem;
-    margin: 0rem 75% 1% 0rem;
+    margin-right: 5%;
 }
 
 .card-fail {
