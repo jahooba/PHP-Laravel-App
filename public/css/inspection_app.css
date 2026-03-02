@@ -12,7 +12,7 @@ nav {
 
 nav a {
     color: blue;
-    margin-right: 15px;
+    margin-right: 25px;
     text-decoration: none;
 }
 
@@ -20,10 +20,18 @@ nav a {
     padding: 2rem;
 }
 
-.card {
+.card-pass {
     background-color: aquamarine;
     color: rgb(24, 48, 40);
     padding: 1rem;
+    margin: 0rem 75% 1% 0rem;
+}
+
+.card-fail {
+    background-color: rgb(255, 191, 191);
+    color: rgb(24, 48, 40);
+    padding: 1rem;
+    margin: 0rem 75% 1% 0rem;
 }
 
 .passed {

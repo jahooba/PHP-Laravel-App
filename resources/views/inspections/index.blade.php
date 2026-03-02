@@ -4,7 +4,7 @@
     <h1>Inspection List</h1>
 
     @foreach ($inspections as $inspection)
-        <div class="card">
+        <div class={{ $inspection->passed ? "card-pass" : "card-fail" }}>
             Vehicle: <strong>{{ $inspection->vehicle_name }}</strong> <br>
             Emission: {{ $inspection->emission_level }} <br>
             Status:
