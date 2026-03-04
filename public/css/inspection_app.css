@@ -1,19 +1,19 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
+    background-color: rgb(237, 242, 247);
     margin: 0;
 }
 
 nav {
-    background-color: rgb(188, 221, 250);
+    background-color: rgb(156, 209, 255);
     color: black;
     padding: 1rem;
 }
 
 nav a {
-    color: blue;
+    color: hsl(208, 100%, 42%);
     margin-right: 25px;
-    text-decoration: none;
+    text-decoration:underline;
 }
 
 .container {
@@ -24,20 +24,21 @@ nav a {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .card-pass {
     background-color: aquamarine;
     color: rgb(24, 48, 40);
     padding: 1rem;
-    margin-right: 5%;
+    margin: 0rem 5% 1% 0rem;
 }
 
 .card-fail {
     background-color: rgb(255, 191, 191);
     color: rgb(24, 48, 40);
     padding: 1rem;
-    margin: 0rem 75% 1% 0rem;
+    margin: 0rem 5% 1% 0rem;
 }
 
 .passed {
