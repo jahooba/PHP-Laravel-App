@@ -12,7 +12,7 @@ class InspectionTest extends TestCase
 
     public function test_inspection_creation() {
         $response = $this->post('/inspections', [
-            'vehicle_name'=> 'toyota650',
+            'vehicle_name'=> 'toyota001',
             'emission_level'=> 28
         ]);
 
