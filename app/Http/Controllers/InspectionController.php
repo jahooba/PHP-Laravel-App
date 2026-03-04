@@ -10,7 +10,7 @@ class InspectionController extends Controller
 {
     public function index() {
         $inspections = Inspection::all();
-        return view("inspections.index", compact("inspections"));
+        return view("inspections.index_cards", compact("inspections"));
     }
 
     public function create() {
