@@ -41,10 +41,3 @@ nav a {
     margin: 0rem 5% 1% 0rem;
 }
 
-.passed {
-    color: green;
-}
-
-.failed {
-    color: red;
-}

@@ -6,13 +6,13 @@
     <div class="card-list">
         @foreach ($inspections as $inspection)
             <div class={{ $inspection->passed ? "card-pass" : "card-fail" }}>
-                Vehicle: <strong>{{ $inspection->vehicle_name }}</strong> <br>
-                Emission: {{ $inspection->emission_level }} <br>
-                Status:
+                <strong>Vehicle:</strong> {{ $inspection->vehicle_name }} <br>
+                <strong>Emission:</strong> {{ $inspection->emission_level }} <br>
+                <strong>Status:</strong>
                 @if ($inspection->passed)
-                    <span class="passed">Passed</span>
+                    <span style="color:green">Passed</span>
                 @else
-                    <span class="failed">Failed</span>
+                    <span style="color:red">Failed</span>
 
                 @endif
             </div>
