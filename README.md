@@ -41,3 +41,10 @@ The goal of this project was to strengthen my understanding of:
 *    PHP and Laravel ecosystem
 *    Writing reliable automated Laravel tests
 *    Structuring a maintainable PHP project
+
+<h2>Screenshots</h2>
+<img width="1920" height="1020" alt="Screenshot 2026-03-03 184942" src="https://github.com/user-attachments/assets/fb36e867-2181-46aa-801f-faee6e993b81" />
+
+<img width="1920" height="1020" alt="Screenshot 2026-03-03 185004" src="https://github.com/user-attachments/assets/98af0ad7-2f6a-4ebe-9291-d427dcca3d2a" />
+
+<img width="1920" height="1020" alt="Screenshot 2026-03-03 185218" src="https://github.com/user-attachments/assets/51574f3b-64e1-4035-8b45-4c30e39f1727" />
