@@ -43,8 +43,15 @@ The goal of this project was to strengthen my understanding of:
 *    Structuring a maintainable PHP project
 
 <h2>Screenshots</h2>
-<img width="1920" height="1020" alt="Screenshot 2026-03-03 184942" src="https://github.com/user-attachments/assets/fb36e867-2181-46aa-801f-faee6e993b81" />
+<h3>Home page</h3>
+<img width="1920" height="1020" alt="Screenshot 2026-03-09 131557" src="https://github.com/user-attachments/assets/095683b1-dd74-4873-ad4b-c1d75bf38f70" />
+<h3>List page</h3>
+<img width="1920" height="1020" alt="Screenshot 2026-03-09 131618" src="https://github.com/user-attachments/assets/4677abaa-3e03-4b9e-b0cf-46b9d3fcb659" />
+<h4>Data entry page</h4>
+<img width="1920" height="1020" alt="Screenshot 2026-03-09 133035" src="https://github.com/user-attachments/assets/b35cbd5d-c2cb-43f3-85f1-ff529d826078" />
 
-<img width="1920" height="1020" alt="Screenshot 2026-03-03 185004" src="https://github.com/user-attachments/assets/98af0ad7-2f6a-4ebe-9291-d427dcca3d2a" />
+<h2>Video Demo
 
-<img width="1920" height="1020" alt="Screenshot 2026-03-03 185218" src="https://github.com/user-attachments/assets/51574f3b-64e1-4035-8b45-4c30e39f1727" />
+https://github.com/user-attachments/assets/44cf70e2-799b-4b6e-87d0-1c5ab808fd17
+
+</h2>
